@@ -1,0 +1,53 @@
+.containers
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.containers .box
+{
+  position: relative;
+  border: 2px solid;
+  width: 400px;
+  height: 380px;
+  margin: 25px;
+}
+
+.main-container
+{
+  position: relative;
+  margin-top: 100px;
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+.main-container .packages
+{
+  position: absolute;
+  display: inline-block;
+  left: 235px;
+  top:-47px;
+  font-size: 70px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.main-container .containers img
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+body
+{
+  height:100%;
+  width:100%;
+  background-color:skyblue;
+}
